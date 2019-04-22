@@ -1,2 +1,2 @@
-docker container rm native
-docker build -t native . && docker run --name native native
+docker container rm graalvm-native
+docker build -t graalvm-native . && docker run --name graalvm-native graalvm-native
