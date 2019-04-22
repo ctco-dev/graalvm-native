@@ -20,6 +20,14 @@ run.cmd
 ```
 Docker image/container names: graalvm-native
 
+# Notes
+Image size is under 20Mb.
+## Memory
+```
+docker stats
+```
+MEM USAGE/LIMIT: 1.605MiB / 4MiB 
+
 # Links
 ## GraalVM
 * https://www.graalvm.org/docs/why-graal/
