@@ -43,9 +43,9 @@ MEM USAGE/LIMIT: 1.605MiB / 4MiB
 ##Benchmarks
 * https://medium.com/graalvm/instant-netty-startup-using-graalvm-native-image-generation-ed6f14ff7692
 
-##Gradle Palantir GraalVM Plugin
+## Gradle Palantir GraalVM Plugin
 * https://github.com/palantir/gradle-graal
  
-##Alternative Examples
+## Alternative Examples
 * https://zeringue.io/post/graalvm-gradle-docker/
 * https://guides.micronaut.io/micronaut-creating-first-graal-app/guide/index.html
