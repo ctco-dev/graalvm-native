@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'application'
-    id "com.palantir.graal" version "0.3.0-24-g5675aec"
+    id "com.github.johnrengelman.shadow" version "4.0.2"
 }
 
 group 'native'
@@ -13,18 +13,11 @@ repositories {
     mavenCentral()
 }
 
-//https://github.com/palantir/gradle-graal
-graal {
-    graalVersion '1.0.0-rc15'
-    outputName 'native'
-    mainClass 'Main'
-    //https://www.graalvm.org/docs/reference-manual/aot-compilation/
-    option '--static'
-    option '-H:ReflectionConfigurationFiles=reflection-config.json'
+shadowJar {
+    mergeServiceFiles()
 }
 
 mainClassName = 'Main'
-
 
 dependencies {
     compile group: 'org.projectlombok', name: 'lombok', version: '1.18.6'
