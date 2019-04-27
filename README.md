@@ -40,7 +40,7 @@ MEM USAGE/LIMIT: 1.605MiB / 4MiB
 ## Limitations
 * https://github.com/oracle/graal/blob/master/substratevm/LIMITATIONS.md
 * https://github.com/oracle/graal/blob/master/substratevm/REFLECTION.md
-##Benchmarks
+## Benchmarks
 * https://medium.com/graalvm/instant-netty-startup-using-graalvm-native-image-generation-ed6f14ff7692
 
 ## Gradle Palantir GraalVM Plugin
